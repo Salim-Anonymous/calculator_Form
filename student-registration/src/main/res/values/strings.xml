@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">student-registration</string>
+    <string name="title">Student Semester Registration Form</string>
+    <string name="text2">please fill in the following fields</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="student_id">Student ID</string>
+    <string name="name">Name</string>
+    <string name="programme">Programme</string>
+    <string name="academic_year">Year</string>
+    <string name="sem_1">Semester I</string>
+    <string name="sem_2">Semester II</string>
+    <string name="check_box_1">dummy</string>
+    <string name="text_view_1">Modules</string>
+    <string name="submit">Submit</string>
+    <string name="reset">Reset</string>
+</resources>

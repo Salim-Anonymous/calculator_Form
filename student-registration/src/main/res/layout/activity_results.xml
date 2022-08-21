@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Results">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Details"
+                tools:layout_editor_absoluteX="188dp"
+                tools:layout_editor_absoluteY="43dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student ID"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="120dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="171dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Programme"
+                tools:layout_editor_absoluteX="35dp"
+                tools:layout_editor_absoluteY="216dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester Name"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="273dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Academic Year"
+                tools:layout_editor_absoluteX="32dp"
+                tools:layout_editor_absoluteY="328dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Year"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="382dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Semester"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="439dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Modules"
+                tools:layout_editor_absoluteX="30dp"
+                tools:layout_editor_absoluteY="503dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="125dp"
+                tools:layout_editor_absoluteY="121dp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="125dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="126dp"
+                tools:layout_editor_absoluteY="223dp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="128dp"
+                tools:layout_editor_absoluteY="276dp" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="125dp"
+                tools:layout_editor_absoluteY="336dp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="391dp" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                tools:layout_editor_absoluteX="125dp"
+                tools:layout_editor_absoluteY="441dp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="229dp"
+                android:layout_height="155dp"
+                android:background="@drawable/view_border"
+                android:text=""
+                tools:layout_editor_absoluteX="123dp"
+                tools:layout_editor_absoluteY="502dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
